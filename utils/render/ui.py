@@ -37,7 +37,7 @@ class Ui:
     <p>Teste page html cour ASR 2024-2025</p>
     <p>Houalef Akram</p>
     <p>Larbi Essaidi Mohammed Mehdi</p>
-    <p>Hidjazi issam</p>
+    <p>Hadjazi issam</p>
     <p>Fizzezi Omar</p>
     <a href="https://www.univ-usto.dz/" target="_blank">Visitez le site</a>
 </body>
