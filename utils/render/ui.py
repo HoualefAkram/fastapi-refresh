@@ -35,7 +35,6 @@ class Ui:
 <body>
     <h1>Bienvenue sur ma page</h1>
     <p>Teste page html cour ASR 2024-2025</p>
-    <img src="C:\Users\Larbi\Desktop\compus france\MEDHO.png" alt="Image Exemple">
     <br>
     <a href="https://www.univ-usto.dz/" target="_blank">Visitez le site</a>
 </body>
