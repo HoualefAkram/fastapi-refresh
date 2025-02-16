@@ -8,9 +8,9 @@ class Ui:
     <div>
         <header>
             <h1>M1 TLC<br>GROUP 2</h1>
-            Houalef Akram
-            Hidjazi issam
-            Fezzazi omar
+            Houalef Akram<br>
+            Hidjazi issam<br>
+            Fezzazi omar<br>
             Mehdi larbi
         </header>
     </div>
