@@ -7,7 +7,11 @@ class Ui:
 <body>
     <div>
         <header>
-            <h1 class="title">M1 TLC<br>GROUP 2</h1>
+            <h1>M1 TLC<br>GROUP 2</h1>
+            Houalef Akram
+            Hidjazi issam
+            Fezzazi omar
+            Mehdi larbi
         </header>
     </div>
 </body>
