@@ -38,7 +38,7 @@ class Ui:
     <p>Houalef Akram</p>
     <p>Larbi Essaidi Mohammed Mehdi</p>
     <p>Hadjazi issam</p>
-    <p>Fizzezi Omar</p>
+    <p>Fezazi Omar</p>
     <a href="https://www.univ-usto.dz/" target="_blank">Visitez le site</a>
 </body>
 </html>"""
