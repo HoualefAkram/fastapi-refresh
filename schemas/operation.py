@@ -6,26 +6,26 @@ class OperationBase(BaseModel):
 
 class SumOperation(OperationBase):
     """Sum operation"""
-    a: int
-    b: int 
+    a: float
+    b: float 
 
 
 class SubOperation(OperationBase):
     """Sub operation"""
-    a: int
-    b: int
+    a: float
+    b: float
 
 class MulOperation(OperationBase):
     """Mul operation"""
-    a: int
-    b: int
+    a: float
+    b: float
 
 class DivOperation(OperationBase):  
     """Div operation"""
-    a: int
-    b: int
+    a: float
+    b: float
 
 
-class OperationResponse(BaseModel):
+class OperationResponse(OperationBase):
     """Operation response"""
     result: float
