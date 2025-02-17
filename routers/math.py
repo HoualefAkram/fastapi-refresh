@@ -15,11 +15,11 @@ def sub(numbers: operation.SubOperation):
 
 @router.post("/mul", response_model=operation.OperationResponse)
 def mul(numbers: operation.MulOperation):
-     operation.OperationResponse(result=numbers.a * numbers.b)
+    return  operation.OperationResponse(result=numbers.a * numbers.b)
 
 @router.post("/div", response_model=operation.OperationResponse)
 def div(numbers: operation.DivOperation):
-  operation.OperationResponse(result=numbers.a / numbers.b)
+    return operation.OperationResponse(result=numbers.a / numbers.b)
 
 
 
