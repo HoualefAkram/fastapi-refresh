@@ -8,13 +8,57 @@ class Ui:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
     <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: Arial, sans-serif; }
-        .container { text-align: center; }
-        .input-box { margin-top: 10px; }
-        .dashboard { display: none; height: 100vh; width: 100vw; }
-        .sidebar { width: 200px; background: #333; color: white; padding: 20px; position: fixed; left: 0; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: space-between; }
-        .content { position: absolute; right: 50px; top: 50%; transform: translateY(-50%); font-size: 24px; font-weight: bold; }
-        .logout-btn { background: red; color: white; padding: 10px; border: none; cursor: pointer; text-align: center; margin-top: auto; }
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-family: Arial, sans-serif; 
+        }
+        .container { 
+            text-align: center; 
+            flex-direction: column;
+            align-items: center;
+        }
+        .input-box { 
+            margin-top: 10px; 
+        }
+        .dashboard { 
+            display: none; 
+            height: 100vh; 
+            width: 100vw;
+        }
+        .sidebar { 
+            width: 200px; 
+            background: #333; 
+            color: white; 
+            padding: 20px; 
+            position: fixed; 
+            left: 0; 
+            top: 0; 
+            bottom: 0; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+        }
+        .content { 
+            position: absolute; 
+            right: 50px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            font-size: 24px; 
+            font-weight: bold; 
+        }
+        .logout-btn { 
+            background: red; 
+            color: white; 
+            padding: 10px; 
+            border: none; 
+            cursor: pointer; 
+            text-align: center; 
+            margin-top: auto; 
+        }
     </style>
 </head>
 <body>
@@ -61,6 +105,7 @@ class Ui:
         function logout() {
             document.getElementById("dashboard").style.display = "none";
             document.getElementById("loginPage").style.display = "flex";
+            document.getElementById("username").value = ""; // Clear the input field
         }
     </script>
 </body>
